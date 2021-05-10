@@ -11,8 +11,12 @@ The purpose of this analysis was to create a neural network using the dataset of
 
 ### Compiling, Training, and Evaluating the Model
 - The challenge required us to build a neural network with two hidden layers, the first hidden layer with 80 neurons, the second hidden layer with 30 neurons, using relu activation funtions within the hidden layers and a sigmoid activation function in the output layer. This model resulted in a 73% accuracy (0.7255). The model was considered a baseline and optimization attempts were used to optimize this neural network model. 
+- ![Model_Structure_Baseline](https://github.com/AaraniSivasekaram/Neural_Network_Charity_Analysis/blob/main/Model_Structure_Baseline.png)
+- ![Accuracy_Results_Baseline_Model](https://github.com/AaraniSivasekaram/Neural_Network_Charity_Analysis/blob/main/Accuracy_Results_Baseline_Model.png)
 - My final neural network model consisted of three hidden layers, the first hidden layer had 120 neurons, the second hidden layer had 80 neurons and the third hidden layer had 40 neurons. Activation functions for the hidden layers included relu and sigmoid, and activation function of the output layer used tanh. 
+- ![Model_Structure_Opt#3](https://github.com/AaraniSivasekaram/Neural_Network_Charity_Analysis/blob/main/Model_Structure_Opt%233.png)
 - I was not able to achieve the target model performance of 75% or above. 
+- ![Accuracy_Results_Opt#3](https://github.com/AaraniSivasekaram/Neural_Network_Charity_Analysis/blob/main/Accuracy_Results_Opt%233.png)
 - Attempts to optimize the neural network model to achieve the target model performance included: increased the number of neurons in the hidden layers, increasing the number of hidden layers and changing the types of activation functions used in the hidden layers and output layer. These attempts at optimization were not successful.
 
 ## Summary: 
