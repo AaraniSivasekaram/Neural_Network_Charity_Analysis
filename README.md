@@ -16,5 +16,5 @@ The purpose of this analysis was to create a neural network using the dataset of
 - Attempts to optimize the neural network model to achieve the target model performance included: increased the number of neurons in the hidden layers, increasing the number of hidden layers and changing the types of activation functions used in the hidden layers and output layer. These attempts at optimization were not successful.
 
 ## Summary: 
-- The deep learning models
-- Include a recommendation for how a different model could solve this classification problem, and explain your recommendation.
+- Overall, all four deep learning models built in this challenge resulted in accuracy scores of 72% - 73%, the models were 73% accurate in classifying whether a charity applicant funded by Alphabet Soup would be successful.
+- Given the needs of this dataset were to determine a binary classification, whether an applicant funded by Alphabet Soup would be successful or not successful, a logistic regression model could also be used. Logistic regression models are useful when predicting the probability of input data belonging to one of two groups, in this case, successful or not successful. However, given the size of this dataset (over 34,000 organizations' data) a neural network was probably the best way to go.
